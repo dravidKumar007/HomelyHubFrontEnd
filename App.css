@@ -1,0 +1,36 @@
+.header{
+    display: flex;
+    justify-content: space-around;
+    position: sticky;
+    top: 0;
+    background-color: aliceblue;
+    z-index: 1;
+    padding: 2px;
+    border-radius: 9px;
+    box-shadow: 0 0 3px black;
+}
+.header img{
+    height: 4vw;
+    padding:1vw;
+}
+form{
+    
+    margin: 1vw;
+    background-color: rgb(255, 255, 255);
+    border-radius: 40px;
+    box-shadow: 0 0 5px black;
+    padding-left: 1.8vw;
+    padding-right: 1.8vw;
+}
+form input{
+    border: 0px;
+    padding: 1vw;
+    width: 12vw;
+    font-size: larger;
+}
+form input[type="number"]{
+  width: 8.5vw;
+}
+.list{
+   cursor: pointer;
+}

@@ -1,0 +1,83 @@
+.contain{
+    box-shadow: 0px 0px 12px black;
+    border-radius: 10px;
+   
+    width:22vw;
+    height: 21vw;
+    display: inline-block; 
+   margin: 1vw;
+   overflow: hidden
+}
+.rel{
+    position: relative;
+}
+.txt{
+    position: relative;
+    text-align: center;
+    font-size: 1.5vw;
+    height:4vw;
+
+}
+.hidden h1{
+ font-size: 1.5vw;
+ font-weight: 500;
+}
+.hidden h3{
+    font-size: 1.2vw;
+    font-weight: bold;
+   }
+   .hidden p{
+    font-size: 1.5vw;
+    font-weight: 100;
+   }
+
+.img{
+  object-fit: cover;
+    height: 18vw;
+    width: 22vw;
+}
+.contain:hover .txt{
+ display: none;
+}
+.contain:hover .img{
+   animation: siz 700ms forwards;
+  
+}
+/* .contain:hover{
+    margin:1vw ;
+    margin-top: 2vw;
+} */
+.hidden p div{
+    font-style: italic;
+    display: inline;
+}
+/* *{cursor: pointer;} */
+.hidden{
+position: absolute;
+top :0;
+padding-bottom:-7vw ;
+background-color: rgba(0, 0, 0, 0.594);
+height: 10vw;
+width: 100%;
+color:white;
+border-radius: 5px;
+opacity: 0;
+padding-top:7vw ;
+padding-left:1vw ;
+}
+.contain:hover .hidden{
+    
+    animation: 700ms siz2 forwards;
+    padding-bottom:-82px ;
+    padding-top:7vw ;
+
+}
+
+@keyframes siz {
+  to{height:22vw}
+    
+}
+@keyframes siz2 {
+    to{height:15vw;opacity: 1;}
+      
+  }

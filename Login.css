@@ -1,0 +1,33 @@
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+.input{
+    width: 37vw;
+    height: 2vw;
+    margin: 2.3vw;
+}
+.horizontal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 1vw;
+}
+.horizontal h5{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+.box {
+    box-shadow: 0px 0px  8px  black;
+    margin: 2vw;
+    margin-left: 19vw;
+    margin-right: 19vw;
+    padding: 2vw;
+  }
+  form .input{
+    border: 2px solid black;
+  }

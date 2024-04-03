@@ -1,0 +1,67 @@
+.big img{
+height: 35vw;
+width: 45.5vw;
+margin: 2vw;
+box-shadow: 1px 1px 10px black;
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.small{
+    margin-top: 1.7vw;
+}
+.small img{
+    height: 16vw;
+    width: 22vw;
+    margin: 1vw;
+    box-shadow: 1px 1px 10px black; 
+}
+.head h3 span{
+    font-size: 3vw;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.head h1{
+    font-weight: 400;
+    padding: 0;
+    margin-bottom:-1vw;
+}
+.head h3{
+    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    text-decoration: underline;
+}
+.head h3 span{
+    align-self: center;
+}
+*{
+    font: serif;
+}
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-content: baseline;
+    flex-direction: row;
+}
+gmp-map {
+    height: 100%;
+  }
+  
+.icons i{
+    align-self: center;
+    padding: 1vw;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.payment{
+    width: 90vw;
+    margin: 2vw;
+    border-radius: 27px;
+    box-shadow: 0 0 3px black;
+}
