@@ -6,6 +6,8 @@ import Property from './Property';
 import Login from './Login';
 import SignIn from './SignIn';
 import Forget from './Forget';
+import Profile from './Profile';
+import UserBook from './UserBook';
 
 function App() {
   var[propname,setname]=useState("")
@@ -74,7 +76,8 @@ function App() {
       </div>
       <Routes>
       <Route path='/Forget' element={<Forget/>}/>
-
+      <Route path='/Profile' element={<Profile/>}/>
+      <Route path='/Profile/Booking' element={<UserBook/>}/>
       <Route path='/SignIn' element={<SignIn/>}/>
         <Route path='/login' element={<Login></Login>}/>
         <Route path="/" element={
